@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manutenção de usuarios</title>
+    <style>
+        div.titulo {background-color: rgb(204,153,0);}
+        body {background-color: #e4eeef;}
+    </style>
+</head>
+<body>
+    <div class="titulo">SISTEMA DE GESTÃO ACADÉMICA</div>
+                MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO
+    
+    <br> <br>
+
+<form action="enviar.html">
+    <label for="login">Login:</label>
+    <input type="text">
+
+    <br> <br>
+    
+    <label for="senha">Senha:</label>
+    <input type="password" name="senha" id="senha">
+    
+    <br> <br>
+    
+    <label for="status">Status:</label>
+    <select name="status" id="status"> 
+        <option value="Inativo">Inativo</option>
+        <option value="ativo">Ativo</option>
+    </select>
+    
+    <br><br>
+    
+    <label for="tipo"> Tipo:</label>
+    <input type="radio" name="tipo">
+    <label for="tecnico">Técnico</label>
+    <input type="radio" name="tipo">
+    <label for="tecnico"> Professor</label>
+    <input type="radio" name="tipo">
+    <label for="aluno">Aluno</label>
+    
+    <br><br>
+    
+    <label for="data">Data de Criação:</label>
+    <input type="date" id="date">
+
+    <br><br>
+
+    <label for="perfil">Perfil: </label>
+    <input type="radio" name="perfil">
+    <label for="convidado">Convidado </label>
+    <input type="radio" name="perfil">
+    <label for="Adminstrador">Administrador </label>
+
+    <br><br>
+
+    <label for="obs">Observações:</label>
+    <textarea name="obs" id="" cols="40" rows="5"></textarea>
+
+    <br><br>
+
+    <label for="modulo">Modulos:</label>
+    <input type="checkbox">
+    <label for="compras">Compras</label>
+    
+    <input type="checkbox">
+    <label for="biblioteca">Biblioteca</label>
+
+    <input type="checkbox">
+    <label for="academico">Académico</label>
+
+    <input type="checkbox">
+    <label for="Documentação">Documentação</label>
+
+    <input type="checkbox">
+    <label for="recursos-humanos">Recursos humanos</label>
+
+    <br><br>
+
+    <input type="submit" value="Cadastrar">
+    <input type="reset" value="Excluir">
+
+</form>
+</body>
+</html>

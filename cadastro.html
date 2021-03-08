@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro geral</title>
+    <style>
+        body {background-color: #e4eeef;}
+    </style>
+</head>
+<body>
+    <form action="enviar.html">
+    <fieldset>
+        <legend>Dados pessoais</legend>
+        <label for="nome">Nome Completo:</label>
+        <br>
+        <input type="text">
+        <br>
+        
+        <label for="profi">Profissão</label>
+        <br>
+        <select name="profi" id="profi" >
+            <option value="padrao">
+                Sua Profissão
+            </option>
+        </select>
+
+        
+    </fieldset>
+<fieldset>
+    <legend>Localização</legend>
+    <label for="email">E-mail:</label>
+    <br>
+    <input type="text">
+    <br>
+    <label for="rua">Rua:</label>
+    <br>
+    <input type="text">
+</fieldset>
+<fieldset>
+    <legend>Faixa etária</legend>
+    
+    <input type="radio" name="faixa">
+    <label for="20a" name="faixa">ate 20 anos</label>
+    <br>
+
+    <input type="radio" name="faixa">
+    <label for="+20">mais de 20 ate 30 anos</label>
+    <br>
+
+    <input type="radio" name="faixa">
+    <label for="20a" name="faixa">mais de 30 ate 40 anos</label>
+    <br>
+
+    <input type="radio" name="faixa">
+    <label for="+20">mais de 40 ate 50 anos</label>
+    <br>
+
+    <input type="radio" name="faixa">
+    <label for="20a" name="faixa">mais de 50 ate 60 anos</label>
+    <br>
+
+    <input type="radio" name="faixa">
+    <label for="+20">mais de 60 anos</label>
+    <br>
+
+</fieldset>
+<fieldset>
+    <legend>Esportes que pratica</legend>
+    
+    <input type="checkbox">
+    <label for="fcampo">Futebol de campo</label>
+    <br>
+    <input type="checkbox">
+    <label for="fsalao">Futebol de salão</label>
+    <br>
+    <input type="checkbox">
+    <label for="fsociety">Futebol society</label>
+    <br>
+    <input type="checkbox">
+    <label for="vquadra">Volei de quadra</label>
+    <br>
+    <input type="checkbox">
+    <label for="vpraia">Volei de praia</label>
+    <br>
+    <input type="checkbox">
+    <label for="npiscina">Natação em piscina</label>
+    <br>
+    <input type="checkbox">
+    <label for="nmar">Natação em mar aberto</label>
+    <br>
+
+</fieldset>
+
+<fieldset>
+<legend>Comentario</legend>
+<label for="msg">Mensagem:</label>
+<br>
+<textarea name="Msg" id="msg" cols="40" rows="7"></textarea>
+
+</fieldset>
+<br>
+<input type="submit">
+<input type="reset" value="Limpar">
+</form>
+</body>
+</html>
